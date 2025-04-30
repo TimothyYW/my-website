@@ -39,12 +39,12 @@ header{
     margin-right: 25px;
   }
 
-#controls a{
+#nav-list a{
     text-decoration: none;
     color: #ffffff;
 }
 
-#controls a:hover{
+#nav-list a:hover{
     border-bottom: 1px solid #ffffff;
 }
 
