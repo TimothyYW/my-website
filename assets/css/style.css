@@ -1,1 +1,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Exo+2:wght@600&display=swap');
+
+* {
+    border: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+body {
+    font-family: 'Exo 2', sans-serif;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    line-height: 1.5;
+}
+
+header{
+    background-color: rgb(0, 0, 0);
+    overflow: hidden;
+}
+
+#nav-list{
+    font-size: 90%;
+    letter-spacing: 4px;
+    float: right;
+    padding-right: 50px;
+}
+
+#nav-list{
+    line-height: 75px;
+}
+
+#nav-list ul{
+    margin-right: 30px;
+    list-style-type: none;
+}
+
+#nav-list li {
+    float: left;
+    margin-right: 25px;
+  }
+
+#controls a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#controls a:hover{
+    border-bottom: 1px solid #ffffff;
+}
+
+.active{
+    border-bottom: 1px solid #ffffff;
+}
