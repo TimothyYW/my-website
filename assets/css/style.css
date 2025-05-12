@@ -8,7 +8,7 @@
 }
 body {
     font-family: 'Exo 2', sans-serif;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(126, 0, 0);
     color: white;
     line-height: 1.5;
 }
@@ -50,4 +50,64 @@ header{
 
 .active{
     border-bottom: 1px solid #ffffff;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+#social-media i {
+    font-size: 2.5rem; 
+}
+
+.text-image-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px; 
+}
+
+.text-image-container img {
+    width: 150px; 
+    height: auto; 
+    border-radius: 10px; 
+}
+
+.text-content {
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-start; 
+}
+
+.text-content h2 {
+    text-align: left;
+    margin-bottom: 10px; 
+}
+
+.text-content p {
+    text-align: justify;
+}
+
+#welcome {
+    background-color: rgba(255, 255, 255, 0.1); 
+    border-radius: 15px; 
+    padding: 20px; 
+    width: 500px; 
+    height: auto; 
+    margin: 20px auto; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    text-align: center; 
+}
+
+#welcome img {
+    border-radius: 10px; 
+    width: 100px; 
+    height: auto; 
+    margin-bottom: 10px; 
 }
