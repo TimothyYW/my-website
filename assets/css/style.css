@@ -163,3 +163,13 @@ footer {
     background: #fff;
     color: #000;
 }
+
+/* Tools and Languages Section */
+.tools-list, .languages-list, .web-dev-tools, .human-languages-list, .other-tools {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 20px;
+    width: 500px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
