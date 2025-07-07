@@ -28,48 +28,40 @@
 <!-- Main content start -->
   <main>
     <section id="welcome">
-        <div class="welcome-text">
-            <h2>Welcome to Gallery</h2>
-            <p>This is where I post pictures and videos from my other hobbies</p>
-            <p>My Hobbies are:</p>
-            <p>1. Fursuiting</p>
-            <p>2. Coding</p>
-            <p>3. Cosplay</p>
-            <p>4. Gaming</p>
+        <h2>Welcome to my hobbies page</h2>
+        <p>Click on the button to see my hobbies.</p>
+
+        <div class="dropdown">
+          <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+          <div id="myDropdown" class="dropdown-content">
+            <a href="#fursuiting">1. Fursuiting</a>
+            <a href="#coding">2. Coding</a>
+            <a href="#gaming">3. Gaming</a>
+          </div>
         </div>
+        <script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
     </section>
-    <section id="hobbies-info">
-        <h2>In case you do not know</h2>
-        <p>
-            Fursuiting is wearing a anthrophmortic animal, and walking around and try your 
-            best being cute without bothering bystanders. They had their own fandom, and they are called furries.
-            I love to fursuit and attend conventions, and I have a fursuit of my own. Which you can see in the gallery.
-        </p>
-        <p>
-            Coding is the process of creating software, websites, and applications.
-            I love to code and create my own projects. I am currently learning R programming language.
-            I have a few projects of my own, which you can see in here.
-        </p>
-        <p>
-            Cosplay is dressing up as a character from a movie, anime, or video game. 
-            I love to cosplay as my favorite characters and attend conventions.
-            I have a few cosplays of my own, which you can see in the gallery.
-        </p>
-        <p>
-            Gaming is playing video games. I love to play video games and attend gaming events.
-            I have a few gaming setups of my own, and I also stream it, which you can see here.
-        </p>
-    </section>
-    <section id="pictures-display">
-        <h2>Gallery</h2>
-        <p>Here are some pictures and videos of my hobbies:</p>
-        <div class="gallery">
-            <img src="fursuit1.jpg" alt="Fursuit 1" />
-            <img src="fursuit2.jpg" alt="Fursuit 2" />
-            <img src="cosplay1.jpg" alt="Cosplay 1" />
-            <img src="cosplay2.jpg" alt="Cosplay 2" />
-        </div>
-    </section>
+    
   </main>
   <!-- Main content end -->
   <!-- Footer start -->
