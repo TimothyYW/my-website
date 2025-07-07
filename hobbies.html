@@ -39,27 +39,7 @@
             <a href="#gaming">3. Gaming</a>
           </div>
         </div>
-        <script>
-/* When the user clicks on the button, 
-toggle between hiding and showing the dropdown content */
-function myFunction() {
-  document.getElementById("myDropdown").classList.toggle("show");
-}
-
-// Close the dropdown if the user clicks outside of it
-window.onclick = function(event) {
-  if (!event.target.matches('.dropbtn')) {
-    var dropdowns = document.getElementsByClassName("dropdown-content");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
-    }
-  }
-}
-</script>
+        <script src="assets/js/script.js"></script>
     </section>
     
   </main>
@@ -109,14 +89,5 @@ window.onclick = function(event) {
   </footer>
   <!-- Footer end -->
   <script src="https://kit.fontawesome.com/1739cf8e1b.js" crossorigin="anonymous"></script>
-  <script>
-    console.log("Welcome to my personal website!");
-    document.addEventListener("DOMContentLoaded", () => {
-      const galleryLink = document.querySelector('a[href="#about"]');
-      if (galleryLink) {
-        galleryLink.style.color = "crimson";
-      }
-    });
-  </script>
 </body>
 </html>
