@@ -11,6 +11,9 @@ body {
     background-color: rgb(126, 0, 0);
     color: white;
     line-height: 1.5;
+    display : flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 header{
@@ -60,6 +63,7 @@ main {
     text-align: center;
     margin: 0 auto;
     padding: 20px;
+    flex : 1 ;
 }
 
 
