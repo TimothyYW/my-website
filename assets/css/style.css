@@ -8,7 +8,11 @@
 }
 body {
     font-family: 'Exo 2', sans-serif;
-    background-color: rgb(126, 0, 0);
+    background-image: url('https://external-preview.redd.it/Tf2MC-orVRAI8OL5tjyF4k4H2Q6QLHTWllekGfqdt3c.png?width=960&crop=smart&auto=webp&s=be4ab9a2fa3ca2f7011799377f118a8dbc64aacb');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     color: white;
     line-height: 1.5;
     display : flex;
