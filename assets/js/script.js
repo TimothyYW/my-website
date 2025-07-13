@@ -18,12 +18,3 @@ window.onclick = function(event) {
   }
 }
 
-// Log a welcome message and change the color of the "About" link
-    console.log("Welcome to my personal website!");
-    document.addEventListener("DOMContentLoaded", () => {
-      const galleryLink = document.querySelector('a[href="#about"]');
-      if (galleryLink) {
-        galleryLink.style.color = "crimson";
-      }
-    });
- 
