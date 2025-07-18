@@ -221,3 +221,9 @@ footer {
 .dropdown a:hover {background-color: #ddd;}
 
 .show {display: block;}
+
+.link {
+    color: inherit;         
+    text-decoration: underline;
+    font-weight: bold;      
+}
