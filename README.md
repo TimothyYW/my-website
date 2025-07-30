@@ -71,3 +71,7 @@ For cloning repository, can be done as followed:
     4. Type Git clone URL
 
 # Credits
+
+Firefly
+
+https://codepen.io/Mertl/pen/GexapP
