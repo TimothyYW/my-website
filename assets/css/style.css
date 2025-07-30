@@ -22,7 +22,6 @@ body {
 
 header{
     background-color: rgb(0, 0, 0);
-    overflow: hidden;
 }
 
 #nav-list{
@@ -245,4 +244,41 @@ canvas{
   left: 0;
   z-index: -1;
   max-width: 100%;
+}
+
+.cdropdown-container {
+  position: relative;
+  z-index: 999;
+}
+
+.cdropdown-content {
+    position: absolute;
+    background-color: #ffffff;
+    padding: 8px 30px;
+    border-radius: 8px;
+
+    z-index: 999;
+    width: 100px;
+    display: none;
+    flex-direction: column;
+    bottom: -240px;
+    color: rgb(0, 0, 0);
+}
+
+.cdropdown-item{
+    color: rgb(0, 0, 0);
+}
+
+.cdropdown-item a {
+    
+    color: rgb(0, 0, 0) !important;
+}
+
+.cdropdown-container:hover .cdropdown-content {
+    display: flex;
+}
+
+ul.cdropdown-content {
+    list-style: none;
+    cursor: pointer;
 }
