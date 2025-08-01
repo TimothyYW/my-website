@@ -253,7 +253,7 @@ canvas{
 
 .cdropdown-content {
     position: absolute;
-    background-color: #ffffff;
+    background-color: #000000;
     padding: 8px 30px;
     border-radius: 8px;
 
@@ -262,16 +262,16 @@ canvas{
     display: none;
     flex-direction: column;
     bottom: -240px;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 
 .cdropdown-item{
-    color: rgb(0, 0, 0);
+    color: rgb(253, 253, 253);
 }
 
 .cdropdown-item a {
     
-    color: rgb(0, 0, 0) !important;
+    color: rgb(255, 255, 255) !important;
 }
 
 .cdropdown-container:hover .cdropdown-content {
