@@ -21,6 +21,12 @@ The hero image will be a background of nighttime within forest that is meant to 
 
 The footer consist of quick link to allowed user to get connected with me through their preferable social media. There are social media that are for professional use, and there are some for fun use.
 
+## Tools and languages
+
+This page to showcase the tools and programming languages that I used including human language.
+
+![Tool and Languages](assets/images/screenshot/screenshot-for-TaL.png)
+
 ## Technologies Utilized
 
 HTML is used for write the code and to built the website.
