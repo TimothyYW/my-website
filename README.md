@@ -39,6 +39,14 @@ Jigsaw is to ensure that there are no error on the CSS code.
 
 Wave is to check if there is color contrast.
 
+# Test result
+
+## CSS Test
+
+As can be seen that the result of test for CSS shows no error
+
+![screenshot css testing](assets/images/testing/screenshot-for-css.png)
+
 # Deployment
 
 To deploy the project please follow step below:
@@ -75,3 +83,7 @@ For cloning repository, can be done as followed:
 Firefly
 
 https://codepen.io/Mertl/pen/GexapP
+
+Rainbow six siege website
+
+https://timothyyw.github.io/Rainbow-six-siege-lore
