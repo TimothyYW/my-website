@@ -27,6 +27,12 @@ This page to showcase the tools and programming languages that I used including 
 
 ![Tool and Languages](assets/images/screenshot/screenshot-for-TaL.png)
 
+# Wireframe
+
+the Wireframe can be view below:
+
+![Home](assets/images/screenshot/Wireframe-home.png)
+
 ## Technologies Utilized
 
 HTML is used for write the code and to built the website.
