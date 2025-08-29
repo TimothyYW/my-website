@@ -33,7 +33,7 @@ the Wireframe can be view below:
 
 ![Home](assets/images/screenshot/Wireframe-home.png)
 
-
+![Hobbies](assets/images/screenshot/Wireframe-hobbies.png)
 
 The wireframes are used as a sketch of the website how is it going to be expected to look.
 
