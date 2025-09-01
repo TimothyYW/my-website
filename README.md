@@ -1,6 +1,8 @@
 # Personal Website
 This website is my personal website where it will be function as my portfolio. This website consist of information about me, my background, my hobbies, and page allowing user to get connect with me.
 
+![Mock Test](assets/images/screenshot/mock-up-test.png)
+
 [Link](https://timothyyw.github.io/my-website/)
 
 # Feature
