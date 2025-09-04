@@ -11,13 +11,19 @@ This website is my personal website where it will be function as my portfolio. T
 
 Within the homepage, are featured three navigation bars, and it is identical with other pages to ensure easy navigation for the user.
 
+![Home index](assets/images/screenshot/Screenshot-index.png)
+
 ## Home page
 
 Once loaded user will be greeted with welcome message, picture of me, and description that is telling a background about myself.
 
+![Home page](assets/images/screenshot/Screenshot-home.png)
+
 ## Hero image
 
 The hero image will be a background of nighttime within forest that is meant to represent peaceful night, since I love the quiet night and the peaceful feeling that is provided.
+
+![Hero image](assets/images/background/hero-image.jpg)
 
 ## Footer
 
