@@ -81,9 +81,13 @@ As can be seen that the result of test for CSS shows no error.
 
 # Lighthouse speed test
 
-As can be seen here is the lighthouse speed test.
+As can be seen here is the lighthouse speed test for deskop.
 
 ![screenshot lighthouse speed test](assets/images/testing/lighthouse-speed-test.png)
+
+As can be seen here is the lighthouse speed test for mobile.
+
+![screenshot lighthouse speed test mobile](assets/images/testing/lighthouse-speed-test-mobile.png)
 
 # Deployment
 
