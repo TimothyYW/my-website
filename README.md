@@ -29,6 +29,8 @@ The hero image will be a background of nighttime within forest that is meant to 
 
 The footer consist of quick link to allowed user to get connected with me through their preferable social media. There are social media that are for professional use, and there are some for fun use.
 
+![Footer](assets/images/screenshot/Screenshot-footer.png)
+
 ## Tools and languages
 
 This page to showcase the tools and programming languages that I used including human language.
@@ -113,3 +115,11 @@ https://codepen.io/Mertl/pen/GexapP
 Rainbow six siege website
 
 https://timothyyw.github.io/Rainbow-six-siege-lore
+
+Website inspiration 
+
+https://kyuiki.com/
+
+Agile inspiration
+
+https://github.com/users/RadwanDuadu/projects/1/views/1
