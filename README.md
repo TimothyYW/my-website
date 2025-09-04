@@ -45,6 +45,8 @@ the Wireframe can be view below:
 
 ![Hobbies](assets/images/screenshot/Wireframe-hobbies.png)
 
+![Tools and Languages](assets/images/screenshot/Wireframe-Tools-and-Language.png)
+
 The wireframes are used as a sketch of the website how is it going to be expected to look.
 
 ## Technologies Utilized
@@ -68,6 +70,8 @@ Jigsaw is to ensure that there are no error on the CSS code.
 Wave is to check if there is color contrast.
 
 # Test result
+
+## HTML
 
 ## CSS Test
 
