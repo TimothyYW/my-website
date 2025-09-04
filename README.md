@@ -75,9 +75,15 @@ Wave is to check if there is color contrast.
 
 ## CSS Test
 
-As can be seen that the result of test for CSS shows no error
+As can be seen that the result of test for CSS shows no error.
 
 ![screenshot css testing](assets/images/testing/screenshot-for-css.png)
+
+# Lighthouse speed test
+
+As can be seen here is the lighthouse speed test.
+
+![screenshot lighthouse speed test](assets/images/testing/lighthouse-speed-test.png)
 
 # Deployment
 
