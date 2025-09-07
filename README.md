@@ -87,6 +87,12 @@ As can be seen the result test for projects HTML shows no error.
 
 As can be seen the test result for gaming, cosplay, and coding html shows no error.
 
+![HTML gaming](assets/images/testing/w3c-gaming.png)
+
+![HTML cosplay](assets/images/testing/w3c-cosplay.png)
+
+![HTML coding](assets/images/testing/w3c-coding.png)
+
 
 
 ## CSS Test
