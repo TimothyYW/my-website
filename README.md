@@ -71,7 +71,23 @@ Wave is to check if there is color contrast.
 
 # Test result
 
-## HTML
+## HTML Test
+
+As can be seen that the result test for Index HTML shows no error.
+
+![HTML index](assets/images/testing/w3c-index.png)
+
+As can be seen the result test for tools and languages HTML shows no error.
+
+![HTML tools and languages](assets/images/testing/w3c-Tools-and-Language.png)
+
+As can be seen the result test for projects HTML shows no error.
+
+![HTML projects](assets/images/testing/w3c-projects.png)
+
+As can be seen the test result for gaming, cosplay, and coding html shows no error.
+
+
 
 ## CSS Test
 
