@@ -93,7 +93,13 @@ As can be seen the test result for gaming, cosplay, and coding html shows no err
 
 ![HTML coding](assets/images/testing/w3c-coding.png)
 
+As can be seen here is the test for connect-successful.html.
 
+![HTML connect-successful](assets/images/testing/w3c-connect-successful.png)
+
+Finally, here is the test result for 404 error page.
+
+![HTML 404 error page](assets/images/testing/w3c-404.png)
 
 ## CSS Test
 
@@ -144,6 +150,10 @@ For cloning repository, can be done as followed:
 
 # Credits
 
+This website has taken inspiration from Love Running project and other portfolio website.
+
+Thank you to Mr Tim Nelson for her guidance
+
 Firefly
 
 https://codepen.io/Mertl/pen/GexapP
@@ -159,3 +169,4 @@ https://kyuiki.com/
 Agile inspiration
 
 https://github.com/users/RadwanDuadu/projects/1/views/1
+
