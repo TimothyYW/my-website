@@ -37,6 +37,14 @@ This page to showcase the tools and programming languages that I used including 
 
 ![Tool and Languages](assets/images/screenshot/screenshot-for-TaL.png)
 
+## Projects and connect successful
+
+This page is allowing the user to connect with me and next page will show if they manage connect succesfully.
+
+![Connect](assets/images/screenshot/screenshot-for-connect.png)
+
+![Successful connect](assets/images/screenshot/Screenshot-for-successful.png)
+
 # Wireframe
 
 the Wireframe can be view below:
