@@ -45,6 +45,10 @@ This page is allowing the user to connect with me and next page will show if the
 
 ![Successful connect](assets/images/screenshot/Screenshot-for-successful.png)
 
+# UX
+
+This website is my portfolio for future applying for jobs, this website consist of my background and hobbies for the client to read. The footer contain social medias that I used allowing them to be able to connect with me. Other way around they can submit their email and creating an account to get in touch with me and look at the project that I have been working on.
+
 # Wireframe
 
 the Wireframe can be view below:
