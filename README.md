@@ -133,6 +133,16 @@ As can be seen here is the lighthouse speed test for mobile.
 
 ![screenshot lighthouse speed test mobile](assets/images/testing/lighthouse-speed-test-mobile.png)
 
+# Wave
+
+As can be seen here is the test with wave. There are two error for color contrast, but it does not pose problem for the website
+
+![wave test](assets/images/testing/wave-test.png)
+
+# Bugs
+
+There are no bugs detected during deployment.
+
 # Deployment
 
 To deploy the project please follow step below:
