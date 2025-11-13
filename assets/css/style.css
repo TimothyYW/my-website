@@ -21,41 +21,49 @@ body {
 }
 
 header{
-    background-color: rgb(0, 0, 0);
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 50px;
+    gap: 20px;
 }
 
+header h1{
+    margin: 0;
+    padding: 0;
+    font-size: 1.6rem;
+}
+
+/* NAV: inline flex so logo + nav align, remove floats */
 #nav-list{
-    font-size: 90%;
-    letter-spacing: 4px;
-    float: right;
-    padding-right: 50px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    margin: 0;
+    padding: 0 50px 0 0;
 }
 
-#nav-list{
-    line-height: 75px;
-}
-
-#nav-list ul{
-    margin-right: 30px;
-    list-style-type: none;
-}
-
-#nav-list li {
-    float: left;
-    margin-right: 25px;
-  }
-
+/* adjust padding + line-height so underline sits close to text */
 #nav-list a{
     text-decoration: none;
     color: #ffffff;
+    padding: 6px 6px 4px;     /* top right bottom — smaller bottom padding */
+    display: inline-block;
+    line-height: 1;           /* tighter line-height */
+    vertical-align: middle;
+    border-bottom: 2px solid transparent; /* reserve underline space */
+    transition: border-color .15s, color .15s;
 }
 
+/* only change border color on hover so layout doesn't shift */
 #nav-list a:hover{
-    border-bottom: 1px solid #ffffff;
+    border-bottom-color: #ffffff;
 }
 
 .active{
-    border-bottom: 1px solid #ffffff;
+    border-bottom-color: #ffffff;
 }
 
 main {
@@ -248,39 +256,41 @@ canvas{
 
 .cdropdown-container {
   position: relative;
-  z-index: 999;
+  display: inline-block;
 }
 
 .cdropdown-content {
     position: absolute;
-    background-color: #000000;
-    padding: 8px 30px;
+    top: 100%;       /* place directly below the button */
+    left: 0;
+    background-color: #000;
+    padding: 8px 0;
     border-radius: 8px;
-
-    z-index: 999;
-    width: 100px;
+    min-width: 140px;
     display: none;
     flex-direction: column;
-    bottom: -240px;
-    color: rgb(255, 255, 255);
-}
-
-.cdropdown-item{
-    color: rgb(253, 253, 253);
-}
-
-.cdropdown-item a {
-    
-    color: rgb(255, 255, 255) !important;
+    z-index: 999;
 }
 
 .cdropdown-container:hover .cdropdown-content {
     display: flex;
 }
 
-ul.cdropdown-content {
+.cdropdown-content li {
     list-style: none;
-    cursor: pointer;
+    margin: 0;
+}
+
+.cdropdown-item a {
+    color: #fff !important;
+    padding: 8px 16px;
+    display: block;
+    text-decoration: none;
+    white-space: nowrap; /* keep items on single line */
+}
+
+.cdropdown-item a:hover {
+    background-color: rgba(255,255,255,0.05);
 }
 
 /* Tablet */
