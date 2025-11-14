@@ -350,3 +350,17 @@ canvas{
     }
     
 }
+
+table {
+    width: 100%;
+    border-collapse: collapse; /* join borders into single lines */
+    border: 1px solid rgba(255,255,255,1); /* make outer table line white */
+    margin: 0 auto;
+}
+
+table th,
+table td {
+    border: 1px solid rgba(255,255,255,1); /* make cell lines white */
+    padding: 10px 12px;
+    text-align: left;
+}
