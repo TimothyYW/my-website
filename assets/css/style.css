@@ -364,3 +364,16 @@ table td {
     padding: 10px 12px;
     text-align: left;
 }
+
+/* Make project links inside tables white and underline on hover */
+main table a:link,
+main table a:visited {
+    color: #ffffff !important;
+    text-decoration: none;
+}
+
+main table a:hover,
+main table a:focus {
+    color: #ffffff !important;
+    text-decoration: underline;
+}
